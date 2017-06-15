@@ -8,7 +8,7 @@ import comments from './data/comments'
 import posts from './data/posts'
 
 const defaultState = {
-  post,
+  posts,
   comments
 }
 

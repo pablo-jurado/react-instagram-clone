@@ -6,6 +6,6 @@ import posts from './posts'
 import comments from './comments'
 
 // router keeps track of our URL changes so we combine that with the reducers
-const rootReducer = combineReducers({posts, comments, routering: routerReducer})
+const rootReducer = combineReducers({posts, comments, routing: routerReducer})
 
 export default rootReducer
